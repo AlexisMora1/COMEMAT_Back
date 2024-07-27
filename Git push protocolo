@@ -1,0 +1,24 @@
+git pull origin develop
+
+git checkout -b "nombre de tu rama" ex: New_navbar
+
+git add .
+
+git commit -m "add : " / "fix : "
+
+git push origin turama
+
+git checkout develop
+
+git pull develop
+
+git checkout tu rama
+
+git rebase develop
+
+git checkout develop
+
+git merge tu rama
+
+git push origin develop
+
