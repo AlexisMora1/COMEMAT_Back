@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'APICursos.apps.ApicursosConfig',
+    'CoursesAPI.apps.CoursesapiConfig',
     'rest_framework',
 ]
 
