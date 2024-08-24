@@ -7,6 +7,7 @@ router.register(r'courses', CourseListViewSet, basename='courses')
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('courses/newcourse', CourseInfoViewSet.as_view({'post':'create'})),
     path('courses/<int:pk>/info', CourseInfoViewSet.as_view({'get': 'retrieve'})),
     path('courses/<int:pk>/', include([
         path('', CourseInfoViewSet.as_view({'get': 'retrieve'})),

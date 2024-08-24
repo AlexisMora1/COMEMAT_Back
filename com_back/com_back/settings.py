@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'APICursos.apps.ApicursosConfig',
+    # 'APICursos.apps.ApicursosConfig',
     'CoursesAPI.apps.CoursesapiConfig',
     'rest_framework',
 ]

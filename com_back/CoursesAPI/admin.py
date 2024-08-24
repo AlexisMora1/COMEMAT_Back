@@ -7,8 +7,8 @@ class Course_List_Admin(admin.ModelAdmin):
 
 @admin.register(Course_info)
 class Course_info_Admin(admin.ModelAdmin):
-    list_display = ('course_id','des', 'opinions', 'valuation', 'count_mod')
+    list_display = ('course','description', 'valuation', 'modules_count', 'created_by')
 
 @admin.register(Modules)
 class ModulesAdmin(admin.ModelAdmin):
-    list_display = ('module_id', 'url')
+    list_display = ('course_info', 'video_url', 'name')

@@ -3,7 +3,7 @@ from django.db import models
 class Course_List(models.Model):
     name = models.CharField(max_length=100)
     created_at = models.DateTimeField(auto_now_add=True)
-    image = models.ImageField()
+    image = models.URLField()
     # Otros campos necesarios
 
 class Course_info(models.Model):
