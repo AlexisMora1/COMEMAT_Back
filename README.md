@@ -1,8 +1,9 @@
 > Makes sure your (local) repo is updated
 
 **git pull origin develop**
-#Creates a new branch for you to work with
-git checkout -b "nombre de tu rama" ex: New_navbar
+> Creates a new branch for you to work with
+
+**git checkout -b "nombre de tu rama" ex: New_navbar **
 #Once you re done, add all changes you want to commit
 git add .
 #Commit the changes
