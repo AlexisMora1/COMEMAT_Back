@@ -3,9 +3,10 @@
 **git pull origin develop**
 > Creates a new branch for you to work with
 
-**git checkout -b "nombre de tu rama" ex: New_navbar **
-#Once you re done, add all changes you want to commit
-git add .
+**git checkout -b "nombre de tu rama" ex: New_navbar**
+> Once you re done, add all changes you want to commit
+
+**git add .**
 #Commit the changes
 git commit -m "add : " / "fix : "
 #Updates the changes in your branch
